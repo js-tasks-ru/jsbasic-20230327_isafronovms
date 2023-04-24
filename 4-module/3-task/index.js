@@ -15,7 +15,7 @@ function highlight(table) {
       }
 
       if (attributesCell.attributes.length == 0) {
-        row.setAttribute('hidden', '');  
+        row.hidden = true;
       } 
       if (ageCell.textContent < 18) {
         row.style.textDecoration = 'line-through';  
